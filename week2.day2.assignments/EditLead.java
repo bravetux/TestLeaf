@@ -80,8 +80,6 @@ public class EditLead
 
         // Click Edit
         driver.findElement ( By.xpath ( "//div[@class='frameSectionExtra']//a[@class='subMenuButton'][3]" ) ).click ( );
-        System.out.println("Edit Clicked ");
-        
 
         // Update the company Name
         driver.findElement ( By.id("updateLeadForm_companyName") ).clear();
