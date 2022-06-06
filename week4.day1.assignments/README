@@ -1,0 +1,27 @@
+Week 4: day1
+🍓🍓🍓🍓🍓🍓🍓🍓🍓
+Assignment 1:
+===============
+Window Handling:
+1.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week3/day2/Assignments/MergeContact.java
+
+2.http://www.leafground.com/pages/Window.html
+Assignment 2: (Frames)
+-------------
+ https://chercher.tech/practice/frames-example-selenium-webdriver
+
+Assignment 3:
+===========
+Amazon:
+1.Load the URL https://www.amazon.in/
+2.search as oneplus 9 pro 
+3.Get the price of the first product
+4. Print the number of customer ratings for the first displayed product
+5. Click the first text link of the first image
+6. Take a screen shot of the product displayed
+7. Click 'Add to Cart' button
+8. Get the cart subtotal and verify if it is correct.
+9.close the browser
+
+Code Reference:
+https://github.com/TestLeafPages/Selenium_May_2022/tree/main/week4/day1
