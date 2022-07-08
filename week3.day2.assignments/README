@@ -1,0 +1,66 @@
+Week3.Day2
+
+Assignment1: on Abstraction
+===========
+Interface :Language
+     Methods   :Java()
+     Interface :TestTool
+     Methods   :Selenium()
+     AbstractClass :MultipleLangauge
+     Methods   :python() and un implemented method as ruby()
+  Execution class: Automation 
+Implement all the methods of interface and abstract class in Automation class
+
+===========================================
+
+Assignment2:: on :(Collections-using List and Set)
+
+The pseudocode has steps to implement using arrays.
+But, now do the same set of programs using Collections. 
+
+
+https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day2/assignments/mandatory/RemoveDuplicates.java
+
+https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day2/assignments/mandatory/FindIntersection.java
+
+https://github.com/TestLeafPages/SeleniumAssignments/tree/master/week1/day2/classroom/arrays
+
+Assignment 3:
+missing Number
+int[] numbers = {4,6,7,2,3,1,9,10,8,8,6,2};
+
+/*
+	 * Psuedocode
+	 * 
+	 * 1) Remove the duplicates using Set
+	 * 2) Make sure the set is in the ascending order
+	 * 3) Iterate from the starting number and verify the next number is + 1
+	 * 4) If did not match, that is the number
+	 * 
+	 */
+
+Assignment 4: PrintOnlyUniqueCharacters
+String input = "babu";
+
+output:// a u
+/*
+	 * Psuedocode
+	 * 
+	 * 1) Convert String to Character array
+	 * 2) Create a new Set -> HashSet
+	 * 3) Add each character to the Set and if it is already there, remove it
+	 * 4) Finally, print the set
+	 * 
+	 */
+
+SAMPLE PROGRAM TO IMPLEMENT List :
+=================================
+ NOTE: Java code is attached for your reference.
+
+1. Launch the URL https://www.ajio.com/
+2. In the search box, type as "bags" and press enter
+3. To the left  of the screen under " Gender" click the "Men"
+4. Under "Category" click "Fashion Bags"
+5. Print the count of the items Found. 
+6. Get the list of brand of the products displayed in the page and print the list.
+7. Get the list of names of the bags and print
