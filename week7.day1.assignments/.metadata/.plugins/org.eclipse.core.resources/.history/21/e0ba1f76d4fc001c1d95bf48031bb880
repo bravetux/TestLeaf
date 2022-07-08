@@ -1,0 +1,24 @@
+Feature: Login into the Website
+
+Background:
+Given Open the Chrome Webbrowser
+Given Load the application URL 'http://leaftaps.com/opentaps'
+Given Enter the username string 'Demosalesmanager'
+Given Enter the password string 'crmsfa'
+When Click on the Login Button.
+Then Check the Page Title.
+
+Scenario: Delete with Positive Case
+When Click on Leads Button
+When Click on Create Contact By LinkText
+When Click on Phone
+Given Enter phone number '1234567890'
+10 Click find leads button
+11 Capture lead ID of First Resulting lead
+12 Click First Resulting lead
+13 Click Delete
+14 Click Find leads
+15 Enter captured lead ID
+16 Click find leads button
+17 Verify message "No records to display" in the Lead List. This message confirms the successful deletion
+18 Close the browser (Do not log out)
